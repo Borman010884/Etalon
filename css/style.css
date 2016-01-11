@@ -1,0 +1,213 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: url('../image/wood_pattern.png');
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    color: #fff;
+}
+
+.background {
+    background-image: url("../image/TimeLine_max.png");
+    opacity: 0.302;
+    position: absolute;
+    left: 230px;
+    top: 50px;
+    width: 1140px;
+    height: 1256px;
+    z-index: 3;
+}
+
+.Logo_img {
+    margin: 5px 0% 2px 15%;
+    display: list-item;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+ .contact {
+     height: 100px;
+     display: inline-block;
+     text-align: center;
+     margin: 5px 0;
+     line-height: 1.5em;
+     font-size: 1.2em;
+ }
+
+.nav {
+    display: inline-table;
+    position: relative;
+    height: 40px;
+    width: 70%;
+    margin: 0 0 1% 15%;;
+    opacity: 0.8;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 5px solid #0066FF;
+    border-radius: 20px 5px;
+    width: 100%;
+    text-align: center;
+    background-color: goldenrod;
+}
+
+.navbar li {
+    font-size: 1.7em;
+    padding: 5px 10px;
+    font-weight: bold;
+    display: inline;
+    width: 100px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: #ECECEC;
+}
+
+
+.article {
+    width: 85%;
+    margin: 1% 5%;
+    border: 2px solid #0066FF;
+    border-radius: 20px 0;
+}
+
+/*Content*/
+
+.raised {
+    position: relative;
+    width: 60%;
+    padding: 5em;
+    margin: 1% 20%;
+    background: #FFD;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 10px solid dimgray;
+    border-radius: 20px;
+}
+
+/*.raised:before,*/
+/*.raised:after {*/
+    /*content:"";*/
+    /*position:absolute;*/
+    /*z-index:-2;*/
+/*}*/
+
+.raised p {
+    font-size:16px;
+    font-weight:normal;
+    text-indent: 40px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.raised h1 {
+    text-align: center;
+}
+
+.raised h2 {
+    text-align: center;
+}
+
+.object_h1 {
+    text-align: center;
+}
+
+.object_ol {
+    line-height: 1.5em;
+}
+
+ul {
+    padding: 0 50px;
+    line-height: 1.7em;
+}
+
+.address {
+    position: relative;
+    width: 60%;
+    padding: 5em;
+    margin: 1% 20%;
+    background: #FFD;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 10px solid dimgray;
+    border-radius: 20px;
+}
+.address h1 {
+    text-align: center;
+    font-size: 28px;
+}
+.address p {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+#video {
+    margin: 30px -20px;
+}
+
+#video .video {
+    width: 95%;
+    height: auto;
+}
+
+/*footer*/
+.footer {
+    position: relative;
+    background: gray;
+    padding: 1em;
+    margin: auto;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.navbar_footer li {
+    font-size: 1.5em;
+}
+.footer_contact {
+    width: 25%;
+    height: 90px;
+    text-align: center;
+    float: left;
+    font-size: 1.15em;
+}
+.footer_contact p {
+    padding-top: 0;
+}
+.footer_contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo_footer {
+    padding: 0 75%;
+    height: 100px;
+}
+.logo_footer img {
+    height: 80px;
+    width: 210px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+/*footer*/
+
+

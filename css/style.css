@@ -211,6 +211,9 @@ ul {
 .copyright {
     text-align: center;
 }
+.count {
+    float: left;
+}
 
 
 /*footer*/
